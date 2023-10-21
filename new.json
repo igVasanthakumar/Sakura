@@ -1,0 +1,14 @@
+{
+      "Resources": {
+        "MyEC2Instance": {
+          "Type": "AWS::EC2::Instance",
+          "Properties": {
+            "InstanceType": "t2.micro",
+            "ImageId": "ami-0df435f331839b2d6",
+            "KeyName": "keyname07",
+            "SecurityGroups":["launch-wizard-4"]
+          }
+        }
+      }
+    }
+    
